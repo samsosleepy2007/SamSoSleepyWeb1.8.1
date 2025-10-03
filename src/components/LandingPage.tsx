@@ -8,7 +8,7 @@ export function LandingPage() {
           Welcome to
         </h1>
         <h2 className="text-4xl md:text-6xl pixel-font text-blue-300 mb-8">
-          SamSoSleepy Website
+          SamSoSleepy Website!!!
         </h2>
         <div className="max-w-2xl mx-auto deltarune-card p-8">
           <p className="text-gray-300 text-lg leading-relaxed mb-4">
