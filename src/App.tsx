@@ -28,12 +28,12 @@ export default function App() {
   return (
     <div className="deltarune-bg">
       {/* Background Image */}
-      {/* <div 
-        className="fixed inset-0 bg-cover bg-center bg-no-repeat opacity-40"
+      <div 
+        className="fixed inset-0 bg-cover bg-center bg-no-repeat opacity-40 -z-10"
         style={{
-          backgroundImage: `url(${backgroundImage})`
+          backgroundImage: `url('/src/assets/3e1509fbb96f955ab2d6fb1ed66b540f5ae059ad.png')`
         }}
-      /> */}
+      />
       
       {/* Navigation */}
       <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
