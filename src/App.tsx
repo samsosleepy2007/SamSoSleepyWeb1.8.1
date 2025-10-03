@@ -5,7 +5,7 @@ import { AddonPage } from './components/AddonPage';
 import { BetMcUiPage } from './components/BetMcUiPage';
 import { OtherPage } from './components/OtherPage';
 import { MusicPlayer } from './components/MusicPlayer';
-import backgroundImage from './src/assets/deltarune-bg_png';
+// import backgroundImage from './src/assets/deltarune-bg_png';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -28,12 +28,12 @@ export default function App() {
   return (
     <div className="deltarune-bg">
       {/* Background Image */}
-      <div 
+      {/* <div 
         className="fixed inset-0 bg-cover bg-center bg-no-repeat opacity-40"
         style={{
           backgroundImage: `url(${backgroundImage})`
         }}
-      />
+      /> */}
       
       {/* Navigation */}
       <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
