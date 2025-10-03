@@ -384,6 +384,97 @@ export function AddonPage() {
       description: "Are you afraid of clowns? Enter the Horror Circus! Transform your world into a true atmosphere of terror, where a terrifying fog covers everything at night! Facing these bizarre clowns will be your worst nightmare. Are you ready for the challenge?",
       link: 'https://www.mediafire.com/file/qdp2r0t1a430vnd/Horror_Circus_Add-On_%2528addon%2529.mcaddon/file'
     }
+    {
+      title: "Raiyons Item Physics",
+      image: 'https://media.forgecdn.net/attachments/1297/528/mcpedl-png.png',
+      name: 'Enhanced Gaming Experience',
+      description: "This addon adds more immersive physics to your Minecraft world, making items on the ground appear realistic and allowing you to pick them up at will.",
+      link: 'https://www.mediafire.com/file/6fpjo0jm6o89tya/Raiyons-Item-Physics-Addon-MCPE-Behavior-1.21.mcpack/file'
+    },
+    {
+      title: "Immersive Interfaces Gui",
+      image: 'https://www.9minecraft.net/wp-content/uploads/2024/09/Shrimps-Immersive-Interfaces-Resource-Pack.png',
+      name: 'Enhanced Gaming Experience',
+      description: "A complete graphical revamp of Minecraft's GUI, brings variety and charm to the previously grey boxes.",
+      link: 'https://www.mediafire.com/file/tbdvjrnm78h4bnd/Immersive+Interfaces+Gui.mcpack/file'
+    },
+    {
+      title: "Bushy trees",
+      image: 'https://i.imgur.com/joLQ5c5.png',
+      name: 'Enhanced Gaming Experience',
+      description: "A simple pack that give a bushy look to leaves while staying true to vanilla. Since there is no culling on leaves, you might end up with lower performance using this pack especially where there is a lot of trees.",
+      link: 'https://www.mediafire.com/file/wwgepf23rxq2nr0/Bushy_trees.mcpack/file'
+    },
+    {
+      title: "fanimationu7.1",
+      image: 'https://i.ytimg.com/vi/Q1_gZ1d2sqY/mqdefault.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "FAnimation is an animation pack inspired by Minecraft Dungeon, there are tons of new animations that make your gaming experience even more fun!",
+      link: 'https://www.mediafire.com/file/6aohcvaxmholbqn/fanimationu7_1.mcpack/file'
+    },
+    {
+      title: "FarmersDelightV3.0.0",
+      image: 'https://i.ytimg.com/vi/WbpX5dPtJOM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB20opoCVJf8io9VJ91VaL5YUFLCw',
+      name: 'Enhanced Gaming Experience',
+      description: "This mod adds four new crops: Tomatoes, Onions, Cabbages, and Rice. These crops, along with vanilla crops, can generate as wild crops around the world.",
+      link: 'https://www.mediafire.com/file/3xpdzkh730mxzze/FarmersDelightV3.0.0-1.21.40+.mcaddon/file'
+    },
+    {
+      title: "Realism Effects",
+      image: 'https://i.ytimg.com/vi/8w4_498FuyM/maxresdefault.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "Transform your worlds with stunning graphics, enhanced sounds, and immersive weather events. Realism Effects Add-On lets you customise every detail, turning effects on or off to suit your style!",
+      link: 'https://www.mediafire.com/file/l3s7y69jkm9wn90/Realism+Effects+Add-On+by+skupka.mcpack/file'
+    },
+    {
+      title: "Aplok Guns",
+      image: 'https://i.ytimg.com/vi/9AOwmjsPDU0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAzo1wHQJvF58LNco8YNlt_p5pyZQ',
+      name: 'Enhanced Gaming Experience',
+      description: "Survival-friendly military-themed add-on with vanilla styled and beautiful guns, satisfying effects, various animations, explosives, custom armor and blocks, and various details that make the difference.",
+      link: 'https://gofile.io/d/ROCyRl'
+    },
+    {
+      title: "Vitals Expansion",
+      image: 'https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/5b35f565-0d07-4a15-b2d5-605580f52839/Vitals_Expansion_Thumbnail_0.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "In this survival expansion, you'll need to manage four new vital stats: Energy, Sleep, Temperature, and Thirst. Running, jumping, and mining drain your stamina, low energy will slow you down. Stay cool in hot biomes and warm in icy areas.",
+      link: 'https://www.mediafire.com/file/1qdbs6wsi728vk9/Vitals_Expansion_by_skupka.mctemplate/file'
+    },
+    {
+      title: "VDX DesktopUI",
+      image: 'https://modbay.org/uploads/posts/2025-10/d587742bf4_vdx-desktop-ui-cover.webp',
+      name: 'Enhanced Gaming Experience',
+      description: "Convert from Bedrock Edition UI to Java Edition UI!",
+      link: 'https://www.mediafire.com/file/jlgid38vtela9jt/VDX-DesktopUI-v3.2.7%2528Main%2529.mcpack/file'
+    },
+    {
+      title: "BETTER DAYS",
+      image: 'https://i.ytimg.com/vi/78-I4ipaeps/maxresdefault.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "Customize the display of days played and coordinates above the hotbar, with multiple variants available!",
+      link: 'https://gofile.io/d/7PvME2'
+    },
+    {
+      title: "Piggyback",
+      image: 'https://media.forgecdn.net/attachments/1293/383/slide1-png.PNG',
+      name: 'Enhanced Gaming Experience',
+      description: "The Piggyback Add-on lets you carry other players on your back, making your Minecraft adventures more fun and interactive!",
+      link: 'https://www.mediafire.com/file/obqvnubr90qapql/Piggyback+by+Daniye+-+v1.1.2.mcaddon/file'
+    },
+    {
+      title: "Better Bedrock",
+      image: 'https://i.ytimg.com/vi/4XSc0J0mrlU/maxresdefault.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "The best Minecraft Bedrock Texture Pack ever existing. It is texture pack that enhances your gameplay experience by upgrading UI!",
+      link: 'https://www.mediafire.com/file/ljjrbbomyftgnd6/Better%20Bedrock%20v8.1%20by%20domikalmazika.mcpack'
+    },
+    {
+      title: "Furniture Life v2.0",
+      image: 'https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/7d13636b-0b3f-4fdc-96c7-8dfefaa41bc8/furniturelife_Thumbnail_0.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "Welcome to Furniture Life! With 2000+ real furniture blocks, you can design everything from cozy homes to sprawling cities. From modern styles to timeless classics, there's a style for everyone. Plus, discover new foods, vehicles, and NPCs to bring your pixel dream to life!",
+      link: 'https://www.mediafire.com/file/7lfephriplk3nb8/Furniture+Life+Add-On+v2.0+(addon).mcaddon/file'
+    }
   ];
 
   // Fuzzy search function
