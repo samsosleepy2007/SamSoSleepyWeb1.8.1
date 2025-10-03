@@ -383,7 +383,7 @@ export function AddonPage() {
       name: 'Enhanced Gaming Experience',
       description: "Are you afraid of clowns? Enter the Horror Circus! Transform your world into a true atmosphere of terror, where a terrifying fog covers everything at night! Facing these bizarre clowns will be your worst nightmare. Are you ready for the challenge?",
       link: 'https://www.mediafire.com/file/qdp2r0t1a430vnd/Horror_Circus_Add-On_%2528addon%2529.mcaddon/file'
-    }
+    },
     {
       title: "Raiyons Item Physics",
       image: 'https://media.forgecdn.net/attachments/1297/528/mcpedl-png.png',
