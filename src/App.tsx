@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Navigation } from './components/Navigation';
-import { LandingPage } from './components/LandingPage';
+import { Navigation } from './src/components/Navigation';
+import { LandingPage } from './src/components/LandingPage';
 import { AddonPage } from './components/AddonPage';
 import { BetMcUiPage } from './components/BetMcUiPage';
 import { OtherPage } from './components/OtherPage';
