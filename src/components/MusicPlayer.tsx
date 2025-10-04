@@ -2,9 +2,11 @@ import React, { useRef, useState, useEffect } from 'react';
 
 // กำหนดเรทการสุ่ม (รวมกันต้องได้ 1)
 const songs = [
-  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/Don't_Forget1.mp3?raw", rate: 0.2 }, // 20%
-  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/Don't_Forget_Piano.mp3?raw", rate: 0.5 }, // 50%
-  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/The%20place%20where%20it%20rained.mp3?raw", rate: 0.5 }, // 50%
+  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/Don't_Forget1.mp3?raw", rate: 0.3 },
+  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/Don't_Forget_Piano.mp3?raw", rate: 0.5 },
+  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/49.%20Dark%20Sanctuary%20(DELTARUNE%20Chapter%203+4%20Soundtrack)%20-%20Toby%20Fox.mp3?raw", rate: 0.5 },
+  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/70.%20The%20place%20where%20it%20rained%20(DELTARUNE%20Chapter%203+4%20Soundtrack)%20-%20Toby%20Fox.mp3?raw", rate: 0.4 },
+  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/Faint%20Glow.mp3?raw", rate: 0.8 },
 ];
 
 // ฟังก์ชันสุ่มตามเรท
