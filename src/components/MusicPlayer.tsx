@@ -35,6 +35,7 @@ export function MusicPlayer() {
           if (audioRef.current) audioRef.current.play();
           return true;
         }
+        // ถ้าเล่นอยู่แล้ว ไม่ pause
         return prev;
       });
     };
