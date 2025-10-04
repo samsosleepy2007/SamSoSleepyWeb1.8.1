@@ -29,6 +29,10 @@ export function MusicPlayer() {
     const startMusic = () => {
       setHasInteracted(true);
       setIsPlaying(true);
+      // Try to play immediately on interaction
+      if (audioRef.current) {
+        audioRef.current.play().catch(() => {});
+      }
       window.removeEventListener('click', startMusic);
       window.removeEventListener('keydown', startMusic);
       window.removeEventListener('touchstart', startMusic);
