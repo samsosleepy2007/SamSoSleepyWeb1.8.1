@@ -115,7 +115,7 @@ export function AddonPage() {
     },
     {
       title: 'Primal Overworld',
-      image: 'https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/4cbc1924-6a66-4921-9e45-a01b765f56d8/Dinosaur_Expansion_thumbnail_0.jpg',
+      image: 'https://i.ytimg.com/vi/RCmyJFv_M2Y/maxresdefault.jpg',
       name: 'Enhanced Gaming Experience',
       description: "Tame and command over 35 dinosaurs in a fully upgraded prehistoric world. Battle 4 epic bosses, face off against rival tribes, and explore revamped biomes filled with new structures. Craft powerful gear and lead your ultimate dino army!",
       link: 'https://www.mediafire.com/file/1uqyady6kxi62fv/Primal_Overworld_Add-On_by_matiss.mcaddon/file'
@@ -476,7 +476,91 @@ export function AddonPage() {
       name: 'Enhanced Gaming Experience',
       description: "Welcome to Furniture Life! With 2000+ real furniture blocks, you can design everything from cozy homes to sprawling cities. From modern styles to timeless classics, there's a style for everyone. Plus, discover new foods, vehicles, and NPCs to bring your pixel dream to life!",
       link: 'https://www.mediafire.com/file/7lfephriplk3nb8/Furniture+Life+Add-On+v2.0+(addon).mcaddon/file'
-    }
+    },
+    {
+      title: "Pro Builder",
+      image: 'https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/69f16ff9-0127-4aa5-9a49-6c2d71d6f55f/probuilder_Thumbnail_0.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "TOOL UPDATE! This Add-On adds 2000+ Custom Block Variants, matching most Resource Packs! Useful for the most creative builders out there!",
+      link: 'https://www.mediafire.com/file/fk8pl1r2gbpaa52/Pro_Builder_Add-On_by_domikalmazika.mcaddon/file'
+    },
+    {
+      title: "Roads+",
+      image: 'https://i.ytimg.com/vi/Hg63JaQU6Rg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCcC0pNygm3TpS4Kz9YIa2st09t1g',
+      name: 'Enhanced Gaming Experience',
+      description: "Add over 250 new road blocks to your worlds. Bring life into your worlds with essential urban elements like construction signs, sidewalks, and street lights. Immerse yourself in a more expansive city experience as you craft realistic streets and highways. Roads + Add-On is perfect for any city builder!",
+      link: 'https://www.mediafire.com/file/ar05ku76qs3f1ua/Roads.mcaddon/file'
+    },
+    {
+      title: "Trash Button",
+      image: 'https://i.ytimg.com/vi/TMXzxpp7d4Y/maxresdefault.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "adding a trash button in the inventory, you can use it to destroy items in creative mode or drop item in survival!",
+      link: 'https://www.mediafire.com/file/8d1css4qoaczwm1/Trash+Button+V1.1.1.mcpack.zip/file'
+    },
+    {
+      title: "Crops And Farms V1.3",
+      image: 'https://i.ytimg.com/vi/LAYCOMxfVJY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB6i2Y2AMRClev_eNbBMRDcZbtglQ',
+      name: 'Enhanced Gaming Experience',
+      description: "Live the complete farming dream with our Crops & Farms Add-On! Expand your homestead with NEW farm animals, and get growing exciting fresh crops. Harvest with your tools and craft into your favorite dish or produce.",
+      link: 'https://www.mediafire.com/file/7objhmr18emql8y/Crops+And+Farms+1.3.mcaddon.zip/file'
+    },
+    {
+      title: "Morph Gauntlet",
+      image: 'https://i.ytimg.com/vi/eD95TofbcMg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC9_7cr5dNmUszNS6KpVHlfaAQjVg',
+      name: 'Enhanced Gaming Experience',
+      description: "Add MORPH Add-On to ANY WORLD! This Add-On adds content to MORPH INTO MOBS! Includes NEW HORROR MODE!",
+      link: 'https://www.mediafire.com/file/c9wqf0pvkhhedxz/Morph+Gauntlet+Add-On+(addon).mcaddon/file'
+    },
+    {
+      title: "GARDENING",
+      image: 'https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/94e5d8b9-0f1d-4acb-b1d0-8490b91da084/GARDENING_Thumbnail_0.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "It's time to add new life to your garden. Gardening brings hundreds of new plant life that can be discovered worldwide. Walk through vibrant meadows of flowers or find the hardiest plants sprouting from sandy deserts. Gardening also offers new ways to decorate your outdoor spaces with new bird baths, benches, gnomes and more!",
+      link: 'https://www.mediafire.com/file/41khlf706wpy7gb/GARDENING+Add-On.mcaddon/file'
+    },
+    {
+      title: "SHIPPING SERVICES",
+      image: 'https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/578a2286-6695-4242-b083-a9c0df138f06/Shipping_Thumbnail_0.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "The Shipping Services Add-On enhances your gameplay with flexible delivery options, a convenient E-Shop, and fun, interactive mechanics for trading and transporting items!",
+      link: 'https://www.mediafire.com/file/rq8c10tcpue4q97/SHIPPING+SERVICES+UPRL.mcaddon/file'
+    },
+    {
+      title: "Friendly Fishing",
+      image: 'https://www.minecraft.net/content/dam/minecraftnet/games/education-edition/key-art/Friendly_Fishing_AddOn_VIDEOTHUMB.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "Conservation International – a non-profit working to protect nature for the benefit of humanity – Mojang Studios have created an epic fishing adventure loaded with everything from tuna and clams to anchovies, sharks, and treasures – the Minecraft Friendly Fishing add-on!",
+      link: 'https://www.mediafire.com/file/6n324jp2iy55utg/Friendly+Fishing.mcaddon/file'
+    },
+    {
+      title: "Advanced Machines V2.0",
+      image: 'https://i.ytimg.com/vi/XOl8ybhHB_w/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBIMHuAdfLmdWHteBkUKwFLuXeaQg',
+      name: 'Enhanced Gaming Experience',
+      description: "Advanced Machines Add-On! Automate your tasks and create complex networks. Build your own factory on ANY world! Use pipes to transport items, fluids and power to machines!",
+      link: 'https://www.mediafire.com/file/sl3jfd8lswhf0g4/Advanced+Machines+2.0+Add-On.mcaddon/file'
+    },
+    {
+      title: "AsianCraft V2.0",
+      image: 'https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/d6500ec4-a6c8-4938-ad52-a78c689c55c9/AsianCraftBuildingAddOn_Thumbnail_0.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "Introducing an Asian-inspired building pack that includes more than 90 new building and decoration blocks with multiple variations! Enhance your builds with the charm of Eastern architecture and design!",
+      link: 'https://www.mediafire.com/file/fbgr7975xmhnsn9/AsianCraft+2.0.mcaddon/file'
+    },
+    {
+      title: "REDSTONE TECH",
+      image: 'https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/4640d124-f8d5-4155-be7e-31a00e1fed9b/Redstone_Tech_Thumbnail_0.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "Create awesome redstone contraptions with all-new redstone components! This Add-On includes everything from double pistons to wireless redstone, offering limitless new redstone possibilities!",
+      link: 'https://www.mediafire.com/file/n9uo34jcuk940x2/REDSTONE+TECH+UPRL.mcaddon/file'
+    },
+    {
+      title: "ZOMBIFIED",
+      image: 'https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/1acd90ac-27c5-4fd0-8864-461688fd1286/Thumbnail_0.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "ZOMBIFY your world with the ZOMBIFIED Add-On! Brace yourself for HORDE NIGHTS, INFECTED BIOMES, CUSTOM STRUCTURES, and over a ton of ZOMBIES!",
+      link: 'https://www.mediafire.com/file/igm1t548qdnahid/ZOMBIFIED.mcaddon/file'
+}
   ];
 
   // Fuzzy search function
