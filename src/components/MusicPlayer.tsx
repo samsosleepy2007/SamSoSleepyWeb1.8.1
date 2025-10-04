@@ -24,28 +24,26 @@ export function MusicPlayer() {
   const [hasInteracted, setHasInteracted] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
-  // เริ่มเล่นเมื่อมี interaction
+  // ให้คลิกที่ส่วนไหนของเว็บก็ trigger play/pause เหมือนปุ่มขวาล่าง
   useEffect(() => {
-    const startMusic = () => {
-      setHasInteracted(true);
-      setIsPlaying(true);
-      // Try to play immediately on interaction
-      if (audioRef.current) {
-        audioRef.current.play().catch(() => {});
-      }
-      window.removeEventListener('click', startMusic);
-      window.removeEventListener('keydown', startMusic);
-      window.removeEventListener('touchstart', startMusic);
+    const globalPlayHandler = (e: Event) => {
+      // ไม่ trigger ถ้าคลิกที่ปุ่มขวาล่าง (ป้องกันซ้อน)
+      if ((e.target as HTMLElement)?.closest('#music-player-fab')) return;
+      if (!hasInteracted) setHasInteracted(true);
+      setIsPlaying((prev) => {
+        const next = !prev;
+        if (audioRef.current) {
+          if (next) audioRef.current.play();
+          else audioRef.current.pause();
+        }
+        return next;
+      });
     };
-    window.addEventListener('click', startMusic);
-    window.addEventListener('keydown', startMusic);
-    window.addEventListener('touchstart', startMusic);
+    window.addEventListener('click', globalPlayHandler);
     return () => {
-      window.removeEventListener('click', startMusic);
-      window.removeEventListener('keydown', startMusic);
-      window.removeEventListener('touchstart', startMusic);
+      window.removeEventListener('click', globalPlayHandler);
     };
-  }, []);
+  }, [hasInteracted]);
 
   // เมื่อเพลงจบ ให้สุ่มเพลงใหม่
   const handleEnded = () => {
@@ -105,6 +103,7 @@ export function MusicPlayer() {
       }}>
         <span style={{fontWeight: 600}}>{isPlaying ? 'Playing' : 'Paused'}</span>
         <button
+          id="music-player-fab"
           onClick={handlePlayPause}
           style={{
             background: isPlaying ? '#2563eb' : '#374151',
