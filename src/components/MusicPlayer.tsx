@@ -31,12 +31,11 @@ export function MusicPlayer() {
       if ((e.target as HTMLElement)?.closest('#music-player-fab')) return;
       if (!hasInteracted) setHasInteracted(true);
       setIsPlaying((prev) => {
-        const next = !prev;
-        if (audioRef.current) {
-          if (next) audioRef.current.play();
-          else audioRef.current.pause();
+        if (!prev) {
+          if (audioRef.current) audioRef.current.play();
+          return true;
         }
-        return next;
+        return prev;
       });
     };
     window.addEventListener('click', globalPlayHandler);
