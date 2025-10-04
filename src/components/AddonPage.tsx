@@ -1,6 +1,8 @@
+
 import React, { useState, useMemo } from 'react';
 import { Card } from './Card';
 import { Search, X } from 'lucide-react';
+import packIcon from '../../assets/pack_icon.png';
 
 export function AddonPage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -22,7 +24,7 @@ export function AddonPage() {
     },
     {
       title: 'RieeMote Beta V1.9.5',
-      image: 'https://cdn.discordapp.com/attachments/906064406482411550/1422464082895831040/pack_icon.png?ex=68dcc469&is=68db72e9&hm=aa61e98bd97216519253e1cac139c2d813efa09b9caec8c0836a3e16e702ba55&',
+      image: packIcon,
       name: 'RieeMote Beta V1.9.5 – The ultimate Minecraft PE addon to bring your gameplay to life!',
       description: 'Express yourself with fun and unique emotes, making every adventure more exciting than ever.',
       link: 'https://www.mediafire.com/file/rvi4pf3ra1piwec/RieeMoteBetaV1.9.5.mcaddon.zip/file'
