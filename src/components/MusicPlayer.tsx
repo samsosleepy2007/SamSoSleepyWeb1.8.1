@@ -8,14 +8,20 @@ const songs = [
 ];
 
 // ฟังก์ชันสุ่มตามเรท
-function pickSongByRate(songs: { src: string; rate: number }[]) {
-  const r = Math.random();
+function pickSongByRate(songs: { src: string; rate: number }[], excludeSrc?: string) {
+  let filtered = songs;
+  if (excludeSrc && songs.length > 1) {
+    filtered = songs.filter(s => s.src !== excludeSrc);
+  }
+  // Normalize rate
+  const total = filtered.reduce((sum, s) => sum + s.rate, 0);
+  const r = Math.random() * total;
   let acc = 0;
-  for (const song of songs) {
+  for (const song of filtered) {
     acc += song.rate;
     if (r < acc) return song.src;
   }
-  return songs[0].src;
+  return filtered[0].src;
 }
 
 export function MusicPlayer() {
@@ -47,8 +53,19 @@ export function MusicPlayer() {
   }, [hasInteracted]);
 
   // เมื่อเพลงจบ ให้สุ่มเพลงใหม่
+
+  // ถ้าเล่นเพลงไม่ได้หรือจบ ให้สุ่มเพลงใหม่ที่ไม่ซ้ำกับเพลงก่อนหน้า
   const handleEnded = () => {
-    const nextSong = pickSongByRate(songs);
+    const nextSong = pickSongByRate(songs, currentSong);
+    setCurrentSong(nextSong);
+    setTimeout(() => {
+      if (isPlaying && audioRef.current) audioRef.current.play();
+    }, 0);
+  };
+
+  // ถ้าเล่นเพลงไม่ได้ (เช่น network error) ให้สุ่มเพลงใหม่ที่ไม่ซ้ำ
+  const handleError = () => {
+    const nextSong = pickSongByRate(songs, currentSong);
     setCurrentSong(nextSong);
     setTimeout(() => {
       if (isPlaying && audioRef.current) audioRef.current.play();
@@ -98,6 +115,7 @@ export function MusicPlayer() {
         ref={audioRef}
         src={currentSong}
         onEnded={handleEnded}
+        onError={handleError}
         hidden
       />
       <div style={{
