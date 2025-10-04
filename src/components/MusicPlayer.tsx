@@ -2,9 +2,9 @@ import React, { useRef, useState, useEffect } from 'react';
 
 // กำหนดเรทการสุ่ม (รวมกันต้องได้ 1)
 const songs = [
-  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/Don't_Forget1.mp3?raw", rate: 0.3 }, // 30%
+  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/Don't_Forget1.mp3?raw", rate: 0.2 }, // 20%
   { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/Don't_Forget_Piano.mp3?raw", rate: 0.5 }, // 50%
-  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/The%20place%20where%20it%20rained.mp3?raw", rate: 0.1 }, // 10%
+  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/The%20place%20where%20it%20rained.mp3?raw", rate: 0.5 }, // 50%
 ];
 
 // ฟังก์ชันสุ่มตามเรท
@@ -21,6 +21,7 @@ function pickSongByRate(songs: { src: string; rate: number }[]) {
 export function MusicPlayer() {
   const [currentSong, setCurrentSong] = useState(() => pickSongByRate(songs));
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isMuted, setIsMuted] = useState(false);
   const [hasInteracted, setHasInteracted] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
@@ -67,7 +68,7 @@ export function MusicPlayer() {
     });
   };
 
-  // sync play/pause state
+  // sync play state
   useEffect(() => {
     if (!audioRef.current) return;
     if (isPlaying && hasInteracted) {
@@ -76,6 +77,20 @@ export function MusicPlayer() {
       audioRef.current.pause();
     }
   }, [isPlaying, hasInteracted, currentSong]);
+
+  // sync mute state
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.muted = isMuted;
+    }
+  }, [isMuted]);
+
+  // sync mute state
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.muted = isMuted;
+    }
+  }, [isMuted]);
 
   return (
     <>
@@ -101,12 +116,12 @@ export function MusicPlayer() {
         fontFamily: 'inherit',
         fontSize: 15
       }}>
-        <span style={{fontWeight: 600}}>{isPlaying ? 'Playing' : 'Paused'}</span>
+        <span style={{fontWeight: 600}}>{isPlaying ? (isMuted ? 'Muted' : 'Playing') : 'Paused'}</span>
         <button
           id="music-player-fab"
-          onClick={handlePlayPause}
+          onClick={() => setIsMuted(m => !m)}
           style={{
-            background: isPlaying ? '#2563eb' : '#374151',
+            background: isMuted ? '#f59e42' : '#2563eb',
             color: '#fff',
             border: 'none',
             borderRadius: 20,
@@ -119,9 +134,9 @@ export function MusicPlayer() {
             justifyContent: 'center',
             transition: 'background 0.2s'
           }}
-          title={isPlaying ? 'Pause' : 'Play'}
+          title={isMuted ? 'Unmute' : 'Mute'}
         >
-          {isPlaying ? '⏸' : '▶️'}
+          {isMuted ? '🔇' : '🔊'}
         </button>
       </div>
     </>
