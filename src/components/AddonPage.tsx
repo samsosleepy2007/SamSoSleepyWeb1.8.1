@@ -233,7 +233,7 @@ export function AddonPage() {
       link: 'https://www.mediafire.com/file/z4r49crlmv903g0/DWELLERS_Add-On_by_Panascais_%2528addon%2529.mcaddon/file'
     },
     {
-      title: "DWELLERS",
+      title: "Realistic Biomes",
       image: 'https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/d229653e-b87b-40f5-82e6-e325ed2bc762/realisticbiomes_Thumbnail_0.jpg',
       name: 'Enhanced Gaming Experience',
       description: "Transform your world with beautiful custom skies, dynamic weather, stunning visual effects, and immersive audio.",
@@ -290,7 +290,7 @@ export function AddonPage() {
     },
     {
       title: "Hollow Knight Silksong",
-      image: 'https://media.forgecdn.net/attachments/1323/834/hkpng-png.png',
+      image: 'https://media.forgecdn.net/attachments/1344/626/hkpng-png.png',
       name: 'Enhanced Gaming Experience',
       description: "The addon adds the Hollow Knight Silksong franchise to the game, blocks and mobs.",
       link: 'https://www.mediafire.com/file/1a66xhu9lodhq6m/Hollow_Knight_Silksong.mcaddon/file'
