@@ -2,9 +2,9 @@ import React, { useRef, useState, useEffect } from 'react';
 
 // กำหนดเรทการสุ่ม (รวมกันต้องได้ 1)
 const songs = [
-  { src: '/assets/Don\'t_Forget1.mp3', rate: 0.3 }, // 30%
-  { src: '/assets/Don\'t_Forget_Piano.mp3', rate: 0.5 }, // 50%
-  { src: '/assets/The place where it rained.mp3', rate: 0.1 }, // 10%
+  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/Don't_Forget1.mp3?raw", rate: 0.3 }, // 30%
+  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/Don't_Forget_Piano.mp3?raw", rate: 0.5 }, // 50%
+  { src: "https://github.com/samsosleepy2007/SamSoSleepyWeb1.8.1/raw/main/public/assets/The%20place%20where%20it%20rained.mp3?raw", rate: 0.1 }, // 10%
 ];
 
 // ฟังก์ชันสุ่มตามเรท
