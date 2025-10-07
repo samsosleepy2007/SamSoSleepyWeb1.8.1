@@ -10,10 +10,10 @@ export function AddonPage() {
   const addonCards = [
     {
       title: 'Action and Stuff 1.5.1',
-      image: 'https://i.ytimg.com/vi/qhhLfvawGOw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCMcWa-amp0rotBWGRN-bemI4sPPg',
+      image: 'https://i.ytimg.com/vi/p7dP3VtENL4/maxresdefault.jpg',
       name: 'Enhanced Gaming Experience',
       description: "The Animation Pack You Didn't Know You Needed: Bring your world to life with new animations, particles, textures, and more!",
-      link: 'https://gofile.io/d/gF3vJE'
+      link: 'https://gofile.io/d/0gy57P'
     },
     {
       title: 'RLCraft Bedrock Edition 1.0.2',
@@ -614,8 +614,15 @@ export function AddonPage() {
       Computersle: "Modern Military II V1.35",
       image: 'https://i.ytimg.com/vi/ymdGrKSiRw8/maxresdefault.jpg',
       name: 'Enhanced Gaming Experience',
-      description: " Modern Military II Addon (1.20) is a gun mod for MCPE/Bedrock that adds MW19 Animation, Sound + Gun Sound Assets MW2022 & MW2023",
+      description: "Modern Military II Addon (1.20) is a gun mod for MCPE/Bedrock that adds MW19 Animation, Sound + Gun Sound Assets MW2022 & MW2023",
       link: 'https://www.mediafire.com/file/vytwkfmbfflrxcg/Modern_Military_II_V1.35%255BTeddy%255D_Beta_%25281%2529.mcaddon/file'
+    },
+    {
+      Computersle: "Sieves Things",
+      image: 'https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/0908e242-35c5-4a17-9e7d-1b4ffdbaea88/SievesThings-Thumbnail_0.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "Dig into the ultimate survival toolkit with Sieves & Things! Whether you're in a Skyblock world or deep underground, get ready to change how you gather, grow, and automate your world.",
+      link: 'https://gofile.io/d/T0XEz0'
     }
 
 
