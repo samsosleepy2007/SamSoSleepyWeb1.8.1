@@ -9,7 +9,7 @@ export function AddonPage() {
 
   const addonCards = [
     {
-      title: 'Action and Stuff 1.5.1',
+      title: 'Action and Stuff 1.6',
       image: 'https://i.ytimg.com/vi/p7dP3VtENL4/maxresdefault.jpg',
       name: 'Enhanced Gaming Experience',
       description: "The Animation Pack You Didn't Know You Needed: Bring your world to life with new animations, particles, textures, and more!",
