@@ -58,11 +58,11 @@ export function AddonPage() {
       link: 'https://www.mediafire.com/file/3vmyzsj4d4iexfp/Mine_Mote_Beta_v0.6.0.mcaddon.zip/file'
     },
     {
-      title: "TaCZBE V0.41",
+      title: "TaCZBE V0.45",
       image: 'https://media.forgecdn.net/attachments/description/1028108/description_c0fae731-ebb5-48bb-9bf4-964b05e22c34.png',
       name: 'Enhanced Gaming Experience',
       description: "The most Immersive and Customizable modern FPS experience in Minecraft - A complete Remaster of the TaC gun mod by the original team.",
-      link: 'https://www.mediafire.com/file/pdthwfpdkn4fn5v/TaCZBE+V0.41+by+domikalmazika.mcaddon/file'
+      link: 'https://www.mediafire.com/file/643s901scfaruuj/TACZBE_v0.45_By_Akang_Krep.mcaddon/file'
     },
     {
       title: 'Japanese Build Set',
@@ -560,8 +560,66 @@ export function AddonPage() {
       name: 'Enhanced Gaming Experience',
       description: "ZOMBIFY your world with the ZOMBIFIED Add-On! Brace yourself for HORDE NIGHTS, INFECTED BIOMES, CUSTOM STRUCTURES, and over a ton of ZOMBIES!",
       link: 'https://www.mediafire.com/file/igm1t548qdnahid/ZOMBIFIED.mcaddon/file'
-}
-  ];
+    },
+    {
+      title: "Item_Physics",
+      image: 'https://i.ytimg.com/vi/C0tcA_6tP6U/sddefault.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "Enhance your Minecraft experience with the Realistic Item Physics Addon. Items now behave according to the laws of physics, staying on the ground until manually picked up.",
+      link: 'https://www.mediafire.com/file/y3j1lnk4b79q6ub/Item_Physics.mcaddon/file'
+    },
+    {
+      title: "magnificent minimap",
+      image: 'https://i.ytimg.com/vi/5WB8oEZSuvM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBANkWInPcSJi8ETxm30AvsgLL-Vw',
+      name: 'Enhanced Gaming Experience',
+      description: "Magnificent Minimap is a powerful addon that offers a real-time, responsive, and highly customizable mini-map experience. Players can freely adjust their size, style, and the information displayed, ensuring the minimap remains practical without disrupting core gameplay. Combining performance, adaptability, and aesthetics, Magnificent Minimap makes exploring and navigating the game world more fluid, efficient, and enjoyable.",
+      link: 'https://www.mediafire.com/file/1nou58ic0d04j0z/Magnificent+Minimap+Resource+v1.2.mcpack/file'
+    },
+    {
+      title: "Mine Buddy",
+      image: 'https://i.ytimg.com/vi/o3slh8V7vzE/maxresdefault.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "Meet the Mine Buddy! Your ultimate helper for farming, building, mining, and more! This trusty companion automates boring tasks, making your adventures easier than ever.",
+      link: 'https://www.mediafire.com/file/ee8tiayhado3366/Mine+Buddy+Add-On+by+matiss.mcaddon/file'
+    },
+    {
+      Computersle: "Computers",
+      image: 'https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/9b9f1eab-94e0-4741-a7b2-dc54a98a5312/COM_Thumbnail_0.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "Send emails and items to your friends and mobs. Leave a message on the forum, advertise your goods or just tell jokes. This powerful utility Add-On is essential for you and your friends.",
+      link: 'https://www.mediafire.com/file/whpdkcyov3mbhva/Computers+Update+3+Add-On+by+skupka.mcaddon/file'
+    },
+    {
+      Computersle: "Epic Kill Animations",
+      image: 'https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/3a0aeaad-e26f-43e1-a851-f9f681941846/contentname_Thumbnail_0.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "Become the hero! Turn YOUR battles into awesome action scenes with slow-motion finishers and EPIC animations!",
+      link: 'https://www.mediafire.com/file/a9i1b6qfoz55za3/Epic+Kill+Animations+Add-On.mcaddon/file'
+    },
+    {
+      Computersle: "Insane Disasters",
+      image: 'https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/803acf91-6c55-404d-9838-b30a861f9039/Insane_Disasters_Thumbnail_0.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "Beware! Adds seven insane natural disasters to your world!",
+      link: 'https://www.mediafire.com/file/4crs1r0e17cmh4k/Insane_Disasters_Add-On.mcaddon/file'
+    },
+    {
+      Computersle: "Dinosaurs 1.1",
+      image: 'https://images.bedrockexplorer.com/minecraft-marketplace-content/pixelbiester-dinosaurs-add-on-thumbnail-b34d96d1fa181360-800.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: "Dinosaurs Add-On! Hunt, tame, ride & fight your favorite dinosaurs. Craft weapons, modern tools & armor, and discover unique dinosaurs in any of your worlds!",
+      link: 'https://www.mediafire.com/file/7trrxw62qkypn0c/Dinosaurs_1.1_Add-On_by_matiss.mcaddon/file'
+    },
+    {
+      Computersle: "Modern Military II V1.35",
+      image: 'https://i.ytimg.com/vi/ymdGrKSiRw8/maxresdefault.jpg',
+      name: 'Enhanced Gaming Experience',
+      description: " Modern Military II Addon (1.20) is a gun mod for MCPE/Bedrock that adds MW19 Animation, Sound + Gun Sound Assets MW2022 & MW2023",
+      link: 'https://www.mediafire.com/file/vytwkfmbfflrxcg/Modern_Military_II_V1.35%255BTeddy%255D_Beta_%25281%2529.mcaddon/file'
+    }
+
+
+    ];
 
   // Fuzzy search function
   const fuzzySearch = (query: string, text: string) => {
