@@ -583,42 +583,42 @@ export function AddonPage() {
       link: 'https://www.mediafire.com/file/ee8tiayhado3366/Mine+Buddy+Add-On+by+matiss.mcaddon/file'
     },
     {
-      Computersle: "Computers",
+      title: "Computers",
       image: 'https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/9b9f1eab-94e0-4741-a7b2-dc54a98a5312/COM_Thumbnail_0.jpg',
       name: 'Enhanced Gaming Experience',
       description: "Send emails and items to your friends and mobs. Leave a message on the forum, advertise your goods or just tell jokes. This powerful utility Add-On is essential for you and your friends.",
       link: 'https://www.mediafire.com/file/whpdkcyov3mbhva/Computers+Update+3+Add-On+by+skupka.mcaddon/file'
     },
     {
-      Computersle: "Epic Kill Animations",
+      title: "Epic Kill Animations",
       image: 'https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/3a0aeaad-e26f-43e1-a851-f9f681941846/contentname_Thumbnail_0.jpg',
       name: 'Enhanced Gaming Experience',
       description: "Become the hero! Turn YOUR battles into awesome action scenes with slow-motion finishers and EPIC animations!",
       link: 'https://www.mediafire.com/file/a9i1b6qfoz55za3/Epic+Kill+Animations+Add-On.mcaddon/file'
     },
     {
-      Computersle: "Insane Disasters",
+      title: "Insane Disasters",
       image: 'https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/803acf91-6c55-404d-9838-b30a861f9039/Insane_Disasters_Thumbnail_0.jpg',
       name: 'Enhanced Gaming Experience',
       description: "Beware! Adds seven insane natural disasters to your world!",
       link: 'https://www.mediafire.com/file/4crs1r0e17cmh4k/Insane_Disasters_Add-On.mcaddon/file'
     },
     {
-      Computersle: "Dinosaurs 1.1",
+      title: "Dinosaurs 1.1",
       image: 'https://images.bedrockexplorer.com/minecraft-marketplace-content/pixelbiester-dinosaurs-add-on-thumbnail-b34d96d1fa181360-800.jpg',
       name: 'Enhanced Gaming Experience',
       description: "Dinosaurs Add-On! Hunt, tame, ride & fight your favorite dinosaurs. Craft weapons, modern tools & armor, and discover unique dinosaurs in any of your worlds!",
       link: 'https://www.mediafire.com/file/7trrxw62qkypn0c/Dinosaurs_1.1_Add-On_by_matiss.mcaddon/file'
     },
     {
-      Computersle: "Modern Military II V1.35",
+      title: "Modern Military II V1.35",
       image: 'https://i.ytimg.com/vi/ymdGrKSiRw8/maxresdefault.jpg',
       name: 'Enhanced Gaming Experience',
       description: "Modern Military II Addon (1.20) is a gun mod for MCPE/Bedrock that adds MW19 Animation, Sound + Gun Sound Assets MW2022 & MW2023",
       link: 'https://www.mediafire.com/file/vytwkfmbfflrxcg/Modern_Military_II_V1.35%255BTeddy%255D_Beta_%25281%2529.mcaddon/file'
     },
     {
-      Computersle: "Sieves Things",
+      title: "Sieves Things",
       image: 'https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/0908e242-35c5-4a17-9e7d-1b4ffdbaea88/SievesThings-Thumbnail_0.jpg',
       name: 'Enhanced Gaming Experience',
       description: "Dig into the ultimate survival toolkit with Sieves & Things! Whether you're in a Skyblock world or deep underground, get ready to change how you gather, grow, and automate your world.",
