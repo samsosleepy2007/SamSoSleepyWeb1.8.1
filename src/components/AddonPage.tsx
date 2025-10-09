@@ -569,7 +569,7 @@ export function AddonPage() {
       link: 'https://www.mediafire.com/file/y3j1lnk4b79q6ub/Item_Physics.mcaddon/file'
     },
     {
-      title: "magnificent minimap",
+      title: "addon กระจอก mgnificent minimap",
       image: 'https://i.ytimg.com/vi/5WB8oEZSuvM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBANkWInPcSJi8ETxm30AvsgLL-Vw',
       name: 'Enhanced Gaming Experience',
       description: "Magnificent Minimap is a powerful addon that offers a real-time, responsive, and highly customizable mini-map experience. Players can freely adjust their size, style, and the information displayed, ensuring the minimap remains practical without disrupting core gameplay. Combining performance, adaptability, and aesthetics, Magnificent Minimap makes exploring and navigating the game world more fluid, efficient, and enjoyable.",
